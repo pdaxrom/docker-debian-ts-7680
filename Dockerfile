@@ -1,5 +1,5 @@
 FROM scratch
-ADD ts7680-linux4.9-debian-stretch-arm-20190220.tar.bz2 /
+ADD ftp://ftp.embeddedarm.com/ts-arm-sbc/ts-7680-linux/distributions/ts7680-linux4.9-debian-stretch-arm-20190220.tar.bz2 /
 
 ENV TERM linux
 ENV DEBIAN_FRONTEND noninteractive
